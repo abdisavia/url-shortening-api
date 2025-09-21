@@ -1,0 +1,28 @@
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+}
+
+.btnDefault{
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+}
+
+.btnDefault:hover{
+    background-color: hsl(180, 66%, 40%);
+}
+
+.btnlogin {
+    background-color: white;
+    color: hsl(257, 7%, 63%);
+}
+
+.btnlogin:hover {
+    background-color: hsl(180, 66%, 40%);
+    color: white;
+}

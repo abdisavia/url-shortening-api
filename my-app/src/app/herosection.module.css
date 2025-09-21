@@ -1,0 +1,45 @@
+.heroSection{
+    background-color: var(--background);
+    height: 650px;
+}
+
+.heroContent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: start;
+    padding-top:30px;
+}
+
+
+
+.heroImageContainer{
+    position:relative;
+    width:720px;
+    height:500px;
+    overflow:hidden;
+    justify-content:center;
+    right:-50px;
+}
+
+.heroContent h1 {
+    width:600px;
+    font-size: 70px;
+    line-height: 1.1;
+    color: var(--foreground);
+}
+
+.heroContent p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 500px;
+    color: var(--lightforeground);
+    margin: 5px 0 30px 0;
+    line-height: 1.5;
+}   
+
+.btnHero{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}

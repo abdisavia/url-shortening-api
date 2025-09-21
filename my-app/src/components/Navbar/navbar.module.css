@@ -1,0 +1,43 @@
+.logo{
+    position: relative;
+    width: 150px;
+    height: 50px;
+}
+
+.navbar{
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navitems{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.navlinks{
+    display: flex;
+    list-style:none;
+}
+
+.navlinksitems{
+    gap: 30px;
+    font-weight: 400;
+    color:hsl(257, 7%, 63%);
+}
+
+.navlinksitems > li:hover{
+    color: var(--foreground);
+    transition: color 0.3s ease;
+}
+
+.navbuttonsitems{
+    gap: 15px;
+}
