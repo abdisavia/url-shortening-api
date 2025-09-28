@@ -1,0 +1,28 @@
+.historyURLContainer{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    gap:1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.button{
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.buttonClicked{
+    background-color: var(--purple);
+}
+
+.generatedUrl{
+    color: var(--blue);
+    font-weight: bold;
+}
