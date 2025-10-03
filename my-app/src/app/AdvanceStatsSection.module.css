@@ -2,7 +2,6 @@
     text-align: center;
     font-size: 18px;
     margin-bottom: 0.5rem;
-    margin-top: 8rem;
     color: hsl(260, 8%, 14%);
     font-weight:700;
 }
@@ -17,37 +16,38 @@
 }
 
 .advancedStatsList{
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
     margin-top: 4rem;
-    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
     list-style:none;
+    width:100%;
 }
 
-.advancedStatsCard{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-    position: relative;
+.advancedStatsList hr{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 8px;
+    background-color: hsl(180, 66%, 49%);
+    z-index: 0;
+    border: none;
 }
 
-.iconContainer{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    padding: 2rem;
-    background-color: var(--purple);
-    top: -5rem;
-    border-radius: 5rem;
-    border:2px solid black;
+.advancedStatsList li:nth-child(1){
+    grid-row: 1 / span 4;
+}
+.advancedStatsList li:nth-child(2){
+    grid-row: 2 / span 4;
+}
+.advancedStatsList li:nth-child(3){
+    grid-row: 3 / span 4;
 }
 
-.iconContainer img{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
-    border:2px solid black;
+.advancedStatsSection{
+    background-color: hsl(225, 100%, 98%);
+    padding: 5rem 0;
 }

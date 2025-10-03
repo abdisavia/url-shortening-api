@@ -5,8 +5,8 @@ import urlinputStyles from "./URLInputSection.module.css";
 
 export default function URLInputSection() {
     return (
-        <section>
-            <div className={globStyles.container}>
+        <section className={urlinputStyles.urlInputSection }>
+            <div className={globStyles.container+ " " + urlinputStyles.urlInputContianer}>
                 <URLInput />
                 <ul className={urlinputStyles.historyURLList}>
                     <li>

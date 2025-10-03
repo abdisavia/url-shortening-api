@@ -4,3 +4,12 @@
     overflow-y:auto;
     margin-top:1rem;
 }
+
+.urlInputSection{
+    background-color: hsl(225, 100%, 98%);
+    padding: 3rem 0;
+}
+
+.urlInputContianer {
+    margin-top: -7rem;
+}
