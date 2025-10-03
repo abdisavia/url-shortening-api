@@ -3,6 +3,7 @@ import HeroSection from "./herosection";
 import URLInputSection from "./URLInputSection";
 import AdvanceStatsSection from "./AdvanceStatsSection";
 import BoostLinkSection from "./BoostLinkSection";
+import ShortlyFooter from "./ShortlyFooter";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <URLInputSection />
       <AdvanceStatsSection />
       <BoostLinkSection />
+      <ShortlyFooter />
     </>
   );
 }
