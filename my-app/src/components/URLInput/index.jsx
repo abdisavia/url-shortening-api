@@ -10,8 +10,8 @@ export default function URLInput() {
                 name="url input"
                 id=""
                 placeholder="Shorten a link here..." />
+            <i className={styles.inputErrorMessage}>Please add a link</i>
             <Button className={styles.btnShorten}>Shorten it!</Button>
-            <p className={styles.inputErrorMessage}>Please add a link</p>
         </div>
     )
 }   

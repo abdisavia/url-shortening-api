@@ -1,42 +1,220 @@
+@media (max-width:480px){
+    .advancedStatsCard{
+        background-color: white;
+        margin-top: 4rem;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        text-align: center;
+        width: 100%;
+        heigth: 100%;
+        z-index:1;
+    }
 
+    .advancedStatsCard h1{
+        font-size: 1.5rem;
+        margin-top: -3rem;
+    }
 
-.advancedStatsCard{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-    text-align: left;
-    width: 100%;
-    heigth: 100%;
-    z-index:1;
+    .advancedStatsCard p{
+        color: hsl(257, 7%, 63%);
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }   
+
+    .iconContainer{
+        position: relative;
+        margin:0 auto;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: var(--purple);
+        top: -5rem;
+        border-radius: 5rem;
+    }
+
+    .iconContainer img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
 }
 
-.advancedStatsCard h1{
-    font-size: 1.25rem;
-    margin-top: -3rem;
+@media (min-width:481px) and (max-width:768px){
+    .advancedStatsCard{
+        background-color: white;
+        margin-top: 4rem;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        text-align: center;
+        width: 100%;
+        heigth: 100%;
+        z-index:1;
+    }
+
+    .advancedStatsCard h1{
+        font-size: 1.5rem;
+        margin-top: -3rem;
+    }
+
+    .advancedStatsCard p{
+        color: hsl(257, 7%, 63%);
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }   
+
+    .iconContainer{
+        position: relative;
+        margin:0 auto;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: var(--purple);
+        top: -5rem;
+        border-radius: 5rem;
+    }
+
+    .iconContainer img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
 }
 
-.advancedStatsCard p{
-    color: hsl(257, 7%, 63%);
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-top: 1rem;
-}   
+@media (min-width:769px) and (max-width:1024px){
+    .advancedStatsCard{
+        background-color: white;
+        margin-top: 4rem;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        text-align: left;
+        width: 100%;
+        heigth: 100%;
+        z-index:1;
+    }
 
-.iconContainer{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: var(--purple);
-    top: -5rem;
-    border-radius: 5rem;
+    .advancedStatsCard h1{
+        font-size: 1.5rem;
+        margin-top: -3rem;
+    }
+
+    .advancedStatsCard p{
+        color: hsl(257, 7%, 63%);
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }   
+
+    .iconContainer{
+        position: relative;
+        margin:0 auto;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: var(--purple);
+        top: -5rem;
+        border-radius: 5rem;
+    }
+
+    .iconContainer img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
 }
 
-.iconContainer img{
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+@media (min-width:1025px) and (max-width:1280px){
+    .advancedStatsCard{
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        text-align: left;
+        width: 100%;
+        heigth: 100%;
+        z-index:1;
+    }
+
+    .advancedStatsCard h1{
+        font-size: 1.25rem;
+        margin-top: -3rem;
+    }
+
+    .advancedStatsCard p{
+        color: hsl(257, 7%, 63%);
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }   
+
+    .iconContainer{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: var(--purple);
+        top: -5rem;
+        border-radius: 5rem;
+    }
+
+    .iconContainer img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}
+
+@media (min-width:1281){
+    .advancedStatsCard{
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        text-align: left;
+        width: 100%;
+        heigth: 100%;
+        z-index:1;
+    }
+
+    .advancedStatsCard h1{
+        font-size: 1.25rem;
+        margin-top: -3rem;
+    }
+
+    .advancedStatsCard p{
+        color: hsl(257, 7%, 63%);
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }   
+
+    .iconContainer{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: var(--purple);
+        top: -5rem;
+        border-radius: 5rem;
+    }
+
+    .iconContainer img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
 }

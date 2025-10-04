@@ -1,27 +1,161 @@
+@media (max-width:480px){
+    .boostLinkSection{
+        background-color: var(--purple);
+        background-image: url('/images/bg-boost-mobile.svg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding : 5rem 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boostLinkSection h1{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .boostLinkSection button{
+        margin: 0 auto;
+        padding: 1em 2em;
+        border-radius:100px; 
+        font-size:20px;
+        display: block;
+    }   
+
+    .boostLinkSection button:hover{
+        background-color:hsla(175, 75%, 69%, 1.00);
+        cursor: pointer;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
 .boostLinkSection{
-    background-color: var(--purple);
-    background-image: url('/images/bg-boost-desktop.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding : 2rem 0;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+        background-color: var(--purple);
+        background-image: url('/images/bg-boost-mobile.svg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding : 5rem 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boostLinkSection h1{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .boostLinkSection button{
+        margin: 0 auto;
+        padding: 1em 2em;
+        border-radius:100px; 
+        font-size:20px;
+        display: block;
+    }   
+
+    .boostLinkSection button:hover{
+        background-color:hsla(175, 75%, 69%, 1.00);
+        cursor: pointer;
+    }
 }
 
-.boostLinkSection h1{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 1rem;
+@media (min-width:769px) and (max-width:1024px){
+    .boostLinkSection{
+        background-color: var(--purple);
+        background-image: url('/images/bg-boost-desktop.svg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding : 2rem 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boostLinkSection h1{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .boostLinkSection button{
+        margin: 0 auto;
+        display: block;
+    }   
+
+    .boostLinkSection button:hover{
+        background-color:hsla(175, 75%, 69%, 1.00);
+        cursor: pointer;
+    }
 }
 
-.boostLinkSection button{
-    margin: 0 auto;
-    display: block;
-}   
+@media (min-width:1025px) and (max-width:1268px){
+    .boostLinkSection{
+        background-color: var(--purple);
+        background-image: url('/images/bg-boost-desktop.svg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding : 2rem 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.boostLinkSection button:hover{
-    background-color:hsla(175, 75%, 69%, 1.00);
-    cursor: pointer;
+    .boostLinkSection h1{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .boostLinkSection button{
+        margin: 0 auto;
+        display: block;
+    }   
+
+    .boostLinkSection button:hover{
+        background-color:hsla(175, 75%, 69%, 1.00);
+        cursor: pointer;
+    }
+}
+
+@media (min-width:1269px){
+    .boostLinkSection{
+        background-color: var(--purple);
+        background-image: url('/images/bg-boost-desktop.svg');
+        object-fit: cover;
+        width:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding : 2rem 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boostLinkSection h1{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .boostLinkSection button{
+        margin: 0 auto;
+        display: block;
+    }   
+
+    .boostLinkSection button:hover{
+        background-color:hsla(175, 75%, 69%, 1.00);
+        cursor: pointer;
+    }
 }

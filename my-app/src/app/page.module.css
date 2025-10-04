@@ -1,5 +1,48 @@
-.container{
-  padding-left:100px;
-  padding-right:100px;
-  margin:0 auto;
+
+/* mobile */
+@media (max-width:480px)  {
+  .container{
+    padding-left:8px;
+    padding-right:8px;
+    margin:0 auto;
+  }
+}
+
+/* tablet 481px - 768px */
+@media (max-width:768px)  { 
+  .container{
+    padding-left:12px;
+    padding-right:12px;
+    margin:0 auto;
+  }
+}
+
+
+ /* tablet lanscape, laptop kecil ukuran 769px - 1024px */
+@media (max-width:1024px) { 
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:0 auto;
+  }
+}
+
+/* laptop sedang >= 1025px */ 
+@media (min-width:1025px) { 
+  .container{
+    padding-left:40px;
+    padding-right: 40px;
+    margin:0 auto;
+    max-width: 100em;
+  }
+}
+
+/* desktop besar >= 1280px */
+@media (min-width:1280px){
+  .container{
+    padding-left:80px;
+    padding-right:80px;
+    margin:0 auto;
+    max-width: 100em;
+  }
 }

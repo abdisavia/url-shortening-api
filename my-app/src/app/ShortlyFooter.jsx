@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function ShortlyFooter() {
     return (
-        <footer className={globalStyle.container + " " + styles.shortlyFooter}>
-            <nav>
+        <footer className={styles.shortlyFooter}>
+            <nav className={globalStyle.container}>
                 <h1 className={styles.title}>Shortly</h1>
                 <div className={styles.footerLinks}>
                     <FooterLink href={["#","#","#"]} text={["Link Shortening", "Branded Links", "Analytics"]} headerText={"Features"} />
