@@ -41,3 +41,71 @@
 .navbuttonsitems{
     gap: 15px;
 }
+
+.menuMobileIcon{
+    display:none;
+}
+
+@media (max-width:768px){
+    .navbar{
+        position:relative;
+        transition:all 2s;
+    }
+
+    .navitems{
+        position:absolute;
+        top:80px;
+        z-index:1;
+        background-color:var(--purple);
+        padding: 20px;
+        border-radius:25px;
+        text-align:center; 
+        width:90%;
+        opacity:0;
+        flex-direction:column;
+    }
+
+    .centeredNavItems{
+        margin:0 auto;
+        opacity:1;
+    }
+
+    .navlinks{
+        flex-direction:column;
+        padding:10px 0px;
+        width:100%;
+        color:white;
+    }
+
+    .navbuttonsitems{
+        width:100%;
+        border-top : 1px solid gray;
+    }
+
+    .navbuttonsitems li button{
+        width:100%;
+        background-color:transparent;
+        color:white;
+    }
+
+    .navbuttonsitems li:nth-child(2){
+        background-color:var(--blue);
+        border-radius:25px;
+    }
+
+    .logo{
+        display:flex;
+        jusitfy-content: start;
+    }
+
+    .menuMobileIcon{
+        width:100%;
+        justify-content: end;
+    }
+
+    .menuMobileButton{
+        border:none;
+        background-color:transparent;
+        
+    }
+}

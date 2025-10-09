@@ -14,7 +14,7 @@
 }
 
 .btnDefault:hover{
-    background-color: hsl(180, 66%, 40%);
+    opacity:70%;
 }
 
 .btnlogin {

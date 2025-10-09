@@ -25,6 +25,10 @@
         line-height: 1.5;
     }
 
+    .cardLineContainer{
+        position:relative;
+    }
+
     .advancedStatsList{
         position: relative;
         display: grid;
@@ -35,14 +39,16 @@
         width:100%;
     }
 
-    .advancedStatsList hr{
+    .blueLine{
         position: absolute;
-        top: 50%;
-        height: 8px;
-        width: 100%;    
+        top:200px;
+        left: 49%;
+        margin: 0 auto;
+        width:2%;
+        height: 700px;
         background-color: hsl(180, 66%, 49%);
-        transform: rotate(90deg);
         z-index: 0;
+        border: none;
     }
 
     .advancedStatsSection{
@@ -77,6 +83,10 @@
         line-height: 1.5;
     }
 
+    .cardLineContainer{
+        position:relative;
+    }
+
     .advancedStatsList{
         position: relative;
         display: grid;
@@ -87,14 +97,16 @@
         width:100%;
     }
 
-    .advancedStatsList hr{
+    .blueLine{
         position: absolute;
-        top: 50%;
-        height: 8px;
-        width: 100%;    
+        top:200px;
+        left: 49%;
+        margin: 0 auto;
+        width:10px;
+        height: 700px;
         background-color: hsl(180, 66%, 49%);
-        transform: rotate(90deg);
         z-index: 0;
+        border: none;
     }
 
     .advancedStatsSection{
@@ -128,6 +140,10 @@
         line-height: 1.5;
     }
 
+    .cardLineContainer{
+        position:relative;
+    }
+
     .advancedStatsList{
         position: relative;
         display: grid;
@@ -138,7 +154,7 @@
         width:100%;
     }
 
-    .advancedStatsList hr{
+    .blueLine{
         position: absolute;
         top: 50%;
         left: 10%;
@@ -173,8 +189,11 @@
         line-height: 1.5;
     }
 
+    .cardLineContainer{
+        position:relative; 
+    }
+
     .advancedStatsList{
-        position: relative;
         display: grid;
         margin-top: 4rem;
         grid-template-columns: 1fr 1fr 1fr;
@@ -184,9 +203,10 @@
         width:100%;
     }
 
-    .advancedStatsList hr{
+
+    .blueLine{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 10%;
         right: 10%;
         height: 8px;
@@ -229,6 +249,10 @@
         line-height: 1.5;
     }
 
+    .cardLineContainer{
+        position:relative;
+    }
+
     .advancedStatsList{
         position: relative;
         display: grid;
@@ -240,7 +264,7 @@
         width:100%;
     }
 
-    .advancedStatsList hr{
+    .blueLine{
         position: absolute;
         top: 50%;
         left: 10%;
