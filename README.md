@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./Screenshot.png)
 
 
 ### Links
 
 - Solution URL: [GITHUB](https://github.com/abdisavia/url-shortening-api)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Shortly](https://url-shortening-api-sandy-alpha.vercel.app/)
 
 ## My process
 
