@@ -35,6 +35,7 @@ export async function GET() {
         if (shortListString) {
             shortList = JSON.parse(shortListString);
         }
+        
         return Response.json({ data: shortList },{ status: 200 })
 
 
