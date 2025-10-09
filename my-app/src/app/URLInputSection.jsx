@@ -30,9 +30,6 @@ export default function URLInputSection() {
         fetchData();
     }, [])
 
-    useEffect(() => {
-        console.log(history);
-    },[history])
     
     return (
         <section className={urlinputStyles.urlInputSection }>
